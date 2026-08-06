@@ -1,5 +1,5 @@
-import React from 'react'
 import { FaArrowRight } from 'react-icons/fa6'
+import TypewriterText from './components/typewriterText'
 
 const HeroSection = () => {
   return (
@@ -7,7 +7,7 @@ const HeroSection = () => {
 
         <div className='flex flex-col justify-center items-center text-center w-full'>
         <h1 className='text-5xl sm:text-6xl md:text-[80px] inline-block text-white text-center sm:text-left px-4 sm:px-8 md:px-16 lg:px-24'>
-       Elevate Your Style
+       Elevate Your <TypewriterText />
       </h1>
 
         <p className='text-lg sm:text-xl md:text-2xl text-[#CFCFCF] text-center px-4 sm:px-8 md:px-16 lg:px-24 mt-4'>
@@ -19,7 +19,6 @@ const HeroSection = () => {
           <FaArrowRight className="mt-[5px] text-white"/>
         </a>
         </div>
-
       
     </div>
   )
