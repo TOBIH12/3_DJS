@@ -40,11 +40,15 @@ import image39 from '@/public/image19(1).jpeg'
 import image40 from '@/public/image20.jpeg'
 import aboutImage from '@/public/about-store.jpg'
 import startIcon from '@/public/star_icon.svg'
+import DJSLogo from '@/public/gemini-3DJS.png'
+import contactImage from '@/public/contact-image.jpeg'
 
 export const assets = {
     logo: logo,
     aboutImage: aboutImage,
     starIcon: startIcon,
+    DJSLogo: DJSLogo,
+    contactImage: contactImage,
 }
 
 export const allProducts = [
@@ -121,7 +125,7 @@ export const testimonialsData = [
     {
         name: "Sharon Adigun",
         title: "Entrepreneur",
-        rating: 4,
+        rating: 5,
         text: "The variety of styles and colors is impressive. I found the perfect bag that matches my personality. Highly recommend Eleganza!"
     },
 ];

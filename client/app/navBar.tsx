@@ -30,7 +30,7 @@ const NavBar = ({header, about, products, testimonials}: any) => {
         <div className='container flex justify-between items-center py-2 px-2 md:px-5 lg:px-8 w-full'>
 
             <Link href="/">
-            <Image src={assets.logo} alt="Nav Logo" className="w-[11rem]"></Image>
+            <Image src={assets.DJSLogo} alt="Nav Logo" className="w-[10rem]"></Image>
             </Link>
 
             <ul className='hidden md:flex gap-7 text-[#1E1E1E]'>

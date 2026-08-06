@@ -3,6 +3,7 @@ import Collection from "./collection"
 import HeroSection from "./heroSection"
 import NavBar from "./navBar"
 import Testimonials from "./testimonials"
+import Contact from "./contact"
 
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Collection />
       <AboutPage />
       <Testimonials />
+      <Contact />
     </div>
   )
 }
