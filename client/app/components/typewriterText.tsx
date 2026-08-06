@@ -40,10 +40,10 @@ export default function TypewriterText() {
   }, [currentText, isDeleting, wordIndex]);
 
   return (
-    <span className="inline-inline-flex items-center text-[#0000A3]">
+    <span className="inline-inline-flex items-center text-[#C89A3C]">
       <span>{currentText}</span>
       {/* Blinking Cursor Bar */}
-      <span className="ml-1 inline-block h-[0.85em] w-[3px] animate-pulse bg-[#0000A3]" />
+      <span className="ml-1 inline-block h-[0.85em] w-[3px] animate-pulse bg-[#C89A3C]" />
     </span>
   );
 }

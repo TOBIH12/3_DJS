@@ -1,5 +1,6 @@
-import { FaArrowRight } from 'react-icons/fa6'
+import { FaArrowRight, FaPhone } from 'react-icons/fa6'
 import TypewriterText from './components/typewriterText'
+import Link from 'next/link'
 
 const HeroSection = () => {
   return (
@@ -14,10 +15,19 @@ const HeroSection = () => {
             Discover our carefully curated collection of premium shoes and bags <br /> designed for the modern fashionista
             </p>
 
-            <a href="#products" className='flex justify-between gap-2 bg-[#00001A] px-5 py-3 mt-5 rounded-2xl hover:bg-[#000033] hover:gap-3 transition-all duration-100 ease-in'>
+              <div className='flex flex-col md:flex-row justify-between gap-4'>
+
+              <a href="tel:+23470363995" className='flex justify-center text-center items-center gap-2 hover:gap-3 bg-transparent border border-white text-white px-8 py-1 mt-5 rounded-2xl'>
+          <h1>Call Now</h1>
+          <FaPhone className="mt-1"/>
+        </a>
+
+              <Link href={'/products'} className='flex justify-between bg-[#00001A] px-5 py-3 mt-5 rounded-2xl gap-2 hover:bg-[#000033] hover:gap-3'>
           <h1 className='text-white'>Shop Collections</h1>
           <FaArrowRight className="mt-[5px] text-white"/>
-        </a>
+              </Link>
+
+              </div>
         </div>
       
     </div>
