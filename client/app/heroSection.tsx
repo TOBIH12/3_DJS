@@ -17,7 +17,7 @@ const HeroSection = () => {
 
               <div className='flex flex-col md:flex-row justify-between gap-4'>
 
-              <a href="tel:+23470363995" className='flex justify-center text-center items-center gap-2 hover:gap-3 bg-transparent border border-white text-white px-8 py-1 mt-5 rounded-2xl'>
+              <a href="tel:+23454949903" className='flex justify-center text-center items-center gap-2 hover:gap-3 bg-transparent border border-white text-white px-8 py-1 mt-5 rounded-2xl'>
           <h1>Call Now</h1>
           <FaPhone className="mt-1"/>
         </a>

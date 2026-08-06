@@ -2,6 +2,7 @@ import AboutPage from "./aboutPage"
 import Collection from "./collection"
 import HeroSection from "./heroSection"
 import NavBar from "./navBar"
+import Testimonials from "./testimonials"
 
 
 const HomePage = () => {
@@ -11,6 +12,7 @@ const HomePage = () => {
       <HeroSection />
       <Collection />
       <AboutPage />
+      <Testimonials />
     </div>
   )
 }

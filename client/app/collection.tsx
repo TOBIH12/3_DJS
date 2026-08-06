@@ -30,7 +30,7 @@ const Collection = () => {
         {
           categoryClicked === 'all' &&
           allProducts.slice(1, 7).map((product) => (
-            <div key={product.id} className="flex flex-col bg-white shadow-md hover:shadow-lg rounded-2xl overflow-hidden ">
+            <div key={product.id} className="flex flex-col h-[100vh] bg-white shadow-md hover:shadow-lg rounded-2xl overflow-hidden ">
               <Image src={product.image} sizes="(max-width: 768px) 100vw, 384px" alt={product.name} className="w-full h-2/3 object-cover hover:scale-105 transition-transform duration-300" />
               <p className="text-left text-gray-700 mt-8 px-4">{product.name}</p>
               <p className="text-left text-gray-700 mt-10 px-4">Sizes:</p>
@@ -40,8 +40,8 @@ const Collection = () => {
         }
         {
           categoryClicked === 'shoes' &&
-          shoes.slice(0, 3).map((product) => (
-            <div key={product.id} className="flex flex-col bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden">
+          shoes.slice(6, 9).map((product) => (
+            <div key={product.id} className="flex flex-col h-[100vh] bg-white shadow-md hover:shadow-lg rounded-2xl overflow-hidden">
               <Image src={product.image} sizes="(max-width: 768px) 100vw, 384px" alt={product.name} className="w-full h-2/3 object-cover hover:scale-105 transition-transform duration-300" />
               <p className="text-left text-gray-700 mt-8 px-4">{product.name}</p>
               <p className="text-left text-gray-700 mt-10 px-4">Sizes:</p>
@@ -52,7 +52,7 @@ const Collection = () => {
         {
           categoryClicked === 'bags' &&
           bags.slice(0, 3).map((product) => (
-            <div key={product.id} className="flex flex-col bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden">
+            <div key={product.id} className="flex flex-col h-[100vh] bg-white shadow-md hover:shadow-lg rounded-2xl overflow-hidden">
               <Image src={product.image} sizes="(max-width: 768px) 100vw, 384px" alt={product.name} className="w-full h-2/3 object-cover hover:scale-105 transition-transform duration-300" />
               <p className="text-left text-gray-700 mt-8 px-4">{product.name}</p>
               <p className="text-left text-gray-700 mt-10 px-4">Sizes:</p>
