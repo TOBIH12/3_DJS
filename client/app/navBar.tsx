@@ -8,7 +8,7 @@ import { IoMenuOutline } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 
 
-const NavBar = ({header, about, products, testimonials}: any) => {
+const NavBar = ({header, about, products, contact}: any) => {
    const [showMobileMenu, setShowMobileMenu] = useState(false);
 
 
@@ -37,7 +37,7 @@ const NavBar = ({header, about, products, testimonials}: any) => {
                 <a href={header} className='cursor-pointer hover:text-gray-400'>Home</a>
                 <a href={products} className='cursor-pointer hover:text-gray-400'>Products</a>
                 <a href={about} className='cursor-pointer hover:text-gray-400'>About</a>
-                <a href={testimonials} className='cursor-pointer hover:text-gray-400'>Testimonials</a>
+                <a href={contact} className='cursor-pointer hover:text-gray-400'>Contact</a>
             </ul>
            
 
@@ -52,7 +52,7 @@ const NavBar = ({header, about, products, testimonials}: any) => {
                 <a href={header} className='px-4 py-2 inline-block hover:bg-gray-200 ' onClick={() => setShowMobileMenu(false)}>Home</a>
                 <a href={products} className='px-4 py-2 inline-block hover:bg-gray-200' onClick={() => setShowMobileMenu(false)}>Products</a>
                 <a href={about} className='px-4 py-2 inline-block hover:bg-gray-200' onClick={() => setShowMobileMenu(false)}>About</a>
-                <a href={testimonials} className='px-4 py-2 inline-block hover:bg-gray-200' onClick={() => setShowMobileMenu(false)}>Testimonials</a>
+                <a href={contact} className='px-4 py-2 inline-block hover:bg-gray-200' onClick={() => setShowMobileMenu(false)}>Contact</a>
             </ul>
         </div> 
 

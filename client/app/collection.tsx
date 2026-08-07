@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { allProducts, shoes, bags } from "./assets";
@@ -16,7 +16,7 @@ const Collection = () => {
 
 
   return (
-    <div className='flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-10 w-full overflow-hidden rounded' id='Products'>
+    <div className='flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-10 w-full overflow-hidden rounded' id='products'>
       <h1 className="text-2xl text-[#00001A] sm:text-4xl mb-2">Our Collection</h1>
       <p className="text-gray-500 text-center mb-8">Check out our carefully curated selection of premium fashion handbags and shoes.</p>
 

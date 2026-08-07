@@ -6,7 +6,7 @@ import { assets } from "./assets";
 
 const AboutPage = () => {
   return (
-    <div className="flex flex-col md:flex-row mb-10 items-center justify-between mx-auto px-10 py-20 bg-gray-100 w-full overflow-hidden rounded" id='About'>
+    <div className="flex flex-col md:flex-row mb-10 items-center justify-between mx-auto px-10 py-20 bg-gray-100 w-full overflow-hidden rounded" id='about'>
       <div className="flex flex-col w-full md:w-1/2" id='About'>
         <h1 className="text-2xl text-left text-[#00001A] sm:text-4xl mb-7">About 3_DJS NIG LTD</h1>
         <p className="text-gray-500 text-left mb-8">Founded with a passion for fashion and quality, 3_DJS has been bringing you the finest selection of shoes and bags since our inception. We believe that accessories are more than just items - they're expressions of personality and style.</p>

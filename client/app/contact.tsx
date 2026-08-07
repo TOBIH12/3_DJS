@@ -9,7 +9,7 @@ import { assets } from "./assets";
 
 const Contact = () => {
   return (
-    <div className="mx-auto mb-4 py-10 lg:px-32 w-full overflow-hidden" id='Contacts'>
+    <div className="mx-auto mb-4 py-10 lg:px-32 w-full overflow-hidden" id='contact'>
 
          <h1 className='text-2xl sm:text-4xl mb-2 text-[#00001A] text-center'>Get In Touch</h1>
     <p className='text-center text-gray-500 mb-12 max-w-120 mx-auto'>Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
@@ -20,7 +20,7 @@ const Contact = () => {
                 <FaLocationDot className="text-[#C89A3C] text-5xl" />
                 <div>
                     <h2 className="text-lg text-[#00001A] font-medium">Visit Us</h2>
-                    <p className="text-gray-500 text-left">123 Fashion Street, Lagos, Nigeria</p>
+                    <p className="text-gray-500 text-left">Plot 2, Block 58B Close 43 RD Kubwa, FCT-Abuja</p>
                 </div>
             </div>
            <a href="tel:+2348054949903" className="flex gap-4 border border-gray-200 hover:bg-gray-100 py-7 px-4 rounded cursor-pointer">

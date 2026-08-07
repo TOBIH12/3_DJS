@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const HeroSection = () => {
   return (
-    <div className='min-h-[80vh] mb-4 bg-cover bg-center items-center flex w-full overflow-hidden' style={{ backgroundImage: `url('/DJS-background.jpg')`, backgroundColor: `rgb(64, 63, 71)`, backgroundBlendMode: `overlay`}} id='Header'>
+    <div className='min-h-[80vh] mb-4 bg-cover bg-center items-center flex w-full overflow-hidden' style={{ backgroundImage: `url('/DJS-background.jpg')`, backgroundColor: `rgb(64, 63, 71)`, backgroundBlendMode: `overlay`}} id='home'>
 
         <div className='flex flex-col justify-center items-center text-center w-full'>
         <h1 className='text-5xl sm:text-6xl md:text-[80px] inline-block text-white text-center sm:text-left px-4 sm:px-8 md:px-16 lg:px-24'>
